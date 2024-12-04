@@ -3,89 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV - John Loyd Del Rosario</title>
-  <link rel="stylesheet" href="style.css">
-  <style> 
-  body { 
-    font-family: Arial, sans-serif; 
-    margin: 0; padding: 0; 
-    ine-height: 1.6; color: #333; 
-    } 
-    .container { 
-        max-width: 800px; 
-        margin: 20px auto; 
-        padding: 20px; 
-        background: #f4f4f4; 
-        border-radius: 8px; 
-        box-shadow: 0 2px 5px
-         rgba(0, 0, 0, 0.1); } 
-         h1, h2, h3 { 
-            margin: 0 0 10px; 
-            color: #444; } 
-            .header { 
-                text-align: center; 
-                margin-bottom: 20px; } 
-                header h1 { 
-                    font-size: 28px; } 
-                    .header p { 
-                        font-size: 16px; 
-                        color: #777; } 
-                        .section { 
-                            margin-bottom: 20px; } 
-                            .section h2 { 
-                                border-bottom: 2px solid #444; 
-                                padding-bottom: 5px; margin-bottom: 15px; } 
-                                ul { list-style-type: none; padding: 0; } 
-                                ul li { margin-bottom: 10px; } 
-                                .footer { 
-                                    text-align: center; 
-                                    font-size: 14px; 
-                                    color: #777; } 
-                                    </style>
+  <title>John Loyd A. Del Rosario</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #000000;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
 
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border: 2px solid #000000;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #000000;
+    }
+
+    .tagline {
+      font-size: 1.2em;
+      color: #000000;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 1.8em;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+
+    ul li:before {
+      content: " ";
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #000000;
+    }
+
+    /* Links */
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  
-  <header>
-    <h1>John Loyd A. Del Rosario</h1>
-    <p>Software Engineer | jldelrosario012@gmail.com | (+63) 921 2177 255</p>
-  </header>
-  
-  <section>
-    <h2>About Me</h2>
-    <p> I am a very motivated person with a passion for continuos growth. I asprie to gain hands-on experience and contribute my skills to an environment efficiently. I also love to learn and experience new things.</p>
-  </section>
+  <div class="container">
+    <header>
+      <h1>John Loyd Del Rosario</h1>
+      <p class="tagline">Your friendly neighborhood multitasker!</p>
+    </header>
 
-  <section>
-    <h2>Education</h2>
-    <ul>
-      <li>Assumpta Academy (2015-2019)</li>
-      <li>Dr. Yanga's College (2019-2021)</li>
-      <li>Bachelor's Degree in Computer Engineering - STI College Balagtas (2021-2025)</li>
-    </ul>
-  </section>
+    <section class="profile">
+      <h2>About Me</h2>
+      <p>Hello! I’m Loyd, a creative and enthusiastic individual who loves problem-solving, learning new skills, and making people smile. Let’s build something amazing together!</p>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Designing and developing applications.</li>
-      <li>Analyzing and resolving technical issues.</li>
-      <li>Computer literate</li>
-      <li>Troubleshooting and debugging system and software problems.</li>
-      <li>Programming languages including Java, C++ and Python.</li>
-    </ul>
-  </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>📌 Designing and developing applications.</li>
+        <li>📌 Analyzing and resolving techinical issues.</li>
+        <li>📌 Computer literate</li>
+        <li>📌 Troubleshooting and debugging system and software.</li>
+        <li>📌 Programming languages including Java, C++ and Python.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Work Experience</h2>
-    <ul>
-      <li>Frontend Developer at ABC Company (2022-Present)</li>
-      <li>Intern at DEF Company (2021-2022)</li>
-    </ul>
-  </section>
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>Office Assistance/Encoder</h3>
+          <p>Developed user-friendly websites with a focus on vibrant designs and functionality. (2020 - 2023)</p>
+        </li>
+      </ul>
+    </section>
 
-  <footer>
-    <p>© 2024 John Loyd Del Rosario. All rights reserved.</p>
-  </footer>
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="jldelrosario012@gmail.com">jldelrosario012@gmail.com</a></p>
+      <p>Phone: <a href="tel:09212177255">+921-217-7255</a></p>
+    </section>
+
+    <footer>
+      <p>Made with by Loyd</p>
+    </footer>
+  </div>
 </body>
 </html>
